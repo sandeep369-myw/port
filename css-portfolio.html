@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>G Sandeep Reddy | CSS Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#0b0b12;color:#fff;line-height:1.7}
+
+header{
+min-height:100vh;display:flex;align-items:center;justify-content:center;
+text-align:center;padding:60px 10%;
+background:radial-gradient(circle at top,#14142b,#0b0b12)
+}
+header h1{font-size:3rem}
+header h2{
+margin:10px 0 20px;
+background:linear-gradient(90deg,#6a5cff,#00d4ff);
+-webkit-background-clip:text;-webkit-text-fill-color:transparent
+}
+header p{max-width:700px;margin:auto;color:#cfcfd9}
+
+section{padding:80px 10%}
+.section-title{
+font-size:2rem;margin-bottom:30px;
+background:linear-gradient(90deg,#6a5cff,#00d4ff);
+-webkit-background-clip:text;-webkit-text-fill-color:transparent
+}
+
+.grid{
+display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:20px
+}
+.card{
+background:#121225;padding:25px;border-radius:14px;
+transition:.3s
+}
+.card:hover{
+transform:translateY(-6px);
+box-shadow:0 10px 30px rgba(106,92,255,.3)
+}
+
+footer{background:#000;text-align:center;padding:15px;color:#777}
+</style>
+</head>
+
+<body>
+
+<header>
+<div>
+<h1>G Sandeep Reddy</h1>
+<h2>CSS / UI Developer</h2>
+<p>
+I design clean, responsive, and modern user interfaces
+using pure CSS with strong layout and visual principles.
+</p>
+</div>
+</header>
+
+<section>
+<h2 class="section-title">CSS Skills</h2>
+<div class="grid">
+<div class="card">Responsive Design (Mobile-First)</div>
+<div class="card">Flexbox & CSS Grid</div>
+<div class="card">Modern UI Styling</div>
+<div class="card">Dark Mode & Themes</div>
+<div class="card">CSS Animations & Transitions</div>
+<div class="card">Cross-Browser Compatibility</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">CSS Projects</h2>
+<div class="grid">
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Fully responsive personal website using HTML & CSS only.</p>
+</div>
+<div class="card">
+<h3>Login & Signup UI</h3>
+<p>Modern authentication UI with transitions and hover effects.</p>
+</div>
+<div class="card">
+<h3>Landing Page Design</h3>
+<p>Clean landing page layout with grid and hero sections.</p>
+</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Tools</h2>
+<div class="grid">
+<div class="card">VS Code</div>
+<div class="card">Browser DevTools</div>
+<div class="card">Git & GitHub</div>
+</div>
+</section>
+
+<section>
+<h2 class="section-title">Education</h2>
+<div class="grid">
+<div class="card">BCA – Kristu Jayanti University</div>
+</div>
+</section>
+
+<footer>
+© 2026 G Sandeep Reddy | CSS Portfolio
+</footer>
+
+</body>
+</html>
